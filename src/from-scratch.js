@@ -28,13 +28,7 @@ class Square extends Rectangle{
     this.side = side;
   }
   /** FEEDBACK: To pass the only test that is missing, remove these two methods from here since we can use the ones from the quadrilateral and Rectangle instead! */
-  getPerimeter(){
-    return 4 * this.side;
-  }
 
-  getArea(){
-    return this.side * this.side;
-  }
 
   getDiagonal(){
     return Math.sqrt(2) * this.side;
