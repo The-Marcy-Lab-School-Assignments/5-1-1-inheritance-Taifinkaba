@@ -27,7 +27,6 @@ class Square extends Rectangle{
     super(side, side);
     this.side = side;
   }
-  /** FEEDBACK: To pass the only test that is missing, remove these two methods from here since we can use the ones from the quadrilateral and Rectangle instead! */
 
 
   getDiagonal(){
